@@ -3,5 +3,11 @@
     "row": 1.8,
     "height": 1,
     "width": 2
+  },
+  "button2": {
+    "row": 5.4,
+    "col": 1,
+    "height": 1,
+    "width": 2
   }
 }
