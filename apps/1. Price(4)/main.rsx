@@ -1,5 +1,6 @@
 <App>
   <Include src="./functions.rsx" />
+  <AppStyles id="$appStyles" css={include("./lib/$appStyles.css", "string")} />
   <CustomAppTheme
     id="$appTheme"
     _migrated={true}
@@ -44,7 +45,6 @@
     id="$urlFragments"
     value={{ ordered: [{ _hideNav: "true" }, { "": "" }] }}
   />
-  <AppStyles id="$appStyles" css={include("./lib/$appStyles.css", "string")} />
   <Include src="./header.rsx" />
   <Include src="./src/drawerFrame1.rsx" />
   <Include src="./src/drawerFrame2.rsx" />
