@@ -1,0 +1,1 @@
+utils.exportData(chart21.data, "GHK-/Gutschein DB", "xlsx")

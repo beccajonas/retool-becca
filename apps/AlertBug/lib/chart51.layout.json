@@ -1,0 +1,46 @@
+{
+  "font": {
+    "family": "Inter",
+    "color": "#033663",
+    "size": 9
+  },
+  "showlegend": false,
+  "margin": {
+    "l": 4,
+    "r": 4,
+    "t": 4,
+    "b": 4,
+    "pad": 2
+  },
+  "hovermode": "x unified",
+  "hoverlabel": {
+    "bgcolor": "#000",
+    "bordercolor": "#000",
+    "font": {
+      "color": "#fff",
+      "family": "Inter",
+      "size": 12
+    }
+  },
+  "clickmode": "select+event",
+  "dragmode": "select",
+  "xaxis": {
+    "tickwidth": 0.1,
+    "tickcolor": "#DEDEDE",
+    "type": "date",
+    "tickformat": "%b-%Y",
+    "automargin": true,
+    "fixedrange": true,
+    "gridcolor": "#fff",
+    "zerolinecolor": "#fff"
+  },
+  "yaxis": {
+    "range": [{{Math.min(...Controlling.data.db_total, ...Controlling.data.db_vouchers, ...Controlling.data.db_ghk) -10}}, {{Math.max(...Controlling.data.db_total, ...Controlling.data.db_vouchers, ...Controlling.data.db_ghk) * 1.4}}],
+    "type": "linear",
+    "ticksuffix": " €",
+    "tickformat": ".0",
+    "automargin": true,
+    "fixedrange": true,
+    "zerolinecolor": "#DEDEDE"
+  }
+}

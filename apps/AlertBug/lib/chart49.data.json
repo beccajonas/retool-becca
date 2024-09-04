@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GHK- & Gutscheinquote nach Anzahl",
+    "x": {{Controlling.data.datum}},
+    "y": {{Controlling.data.ghk_voucher_ratio_num}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}: %{y:.2%}<extra></extra>",
+    "marker": {
+      "color": "#033663",
+      "size": 3
+    },
+    "mode": "lines+markers"
+  }
+]

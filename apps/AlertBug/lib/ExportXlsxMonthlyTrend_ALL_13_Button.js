@@ -1,0 +1,1 @@
+utils.exportData(chart19.data, "GHK-/Gutscheinquote", "xlsx")

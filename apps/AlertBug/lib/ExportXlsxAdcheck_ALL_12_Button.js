@@ -1,0 +1,1 @@
+utils.exportData(AdCheckDaily_Chart.data, "adcheck_scores_daily", "xlsx")

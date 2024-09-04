@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Impressionen",
+      "x": {{ Impressions_ALL_12_Chart.data.row_count }},
+      "y": {{ Impressions_ALL_12_Chart.data.werbetreibender }},
+      "type": "bar",
+      "orientation": "h",
+      "hovertemplate": "<b>%{y}</b><br>%{x:.0f} Impressionen<extra></extra>",
+      "transforms": [
+        {
+          "type": "sort",
+          "target": "y",
+          "order": "descending"
+        },
+        {
+          "type": "aggregate",
+          "groups": {{ Impressions_ALL_12_Chart.data.werbetreibender }},
+          "aggregations": [
+            {
+              "target": "y",
+              "func": "sum",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "marker": {
+        "color": {{ Impressions_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#16366F' : '#F3F2F2') }}
+      },
+      "text": {{ Impressions_ALL_12_Chart.data.werbetreibender_short }},
+      "textposition": "inside",
+      "insidetextanchor": "start",
+      "textfont": {
+        "color": {{ Impressions_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#FFFFFF' : '#656565') }},
+        "size": 14,
+        "family": "Inter",
+        "weight": "bold",
+      }
+    }
+  ]

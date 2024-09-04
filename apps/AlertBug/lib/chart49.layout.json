@@ -1,0 +1,45 @@
+{
+  "font": {
+    "family": "Inter",
+    "color": "#033663",
+    "size": 9
+  },
+  "showlegend": false,
+  "margin": {
+    "l": 4,
+    "r": 4,
+    "t": 4,
+    "b": 4,
+    "pad": 2
+  },
+  "hovermode": "x unified",
+  "hoverlabel": {
+    "bgcolor": "#000",
+    "bordercolor": "#000",
+    "font": {
+      "color": "#fff",
+      "family": "Inter",
+      "size": 12
+    }
+  },
+  "clickmode": "select+event",
+  "dragmode": "select",
+  "xaxis": {
+    "tickwidth": 0.1,
+    "tickcolor": "#DEDEDE",
+    "type": "date",
+    "tickformat": "%b-%Y",
+    "automargin": true,
+    "fixedrange": true,
+    "gridcolor": "#fff",
+    "zerolinecolor": "#fff"
+  },
+  "yaxis": {
+    "range": [0, 1.01],
+    "type": "linear",
+    "tickformat": ".0%",
+    "automargin": true,
+    "fixedrange": true,
+    "zerolinecolor": "#DEDEDE"
+  }
+}
