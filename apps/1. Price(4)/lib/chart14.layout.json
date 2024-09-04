@@ -1,0 +1,54 @@
+{
+  "font": {
+    "family": "Inter",
+    "color": "#033663",
+    "size": 9
+  },
+  "showlegend": false,
+  "margin": {
+    "l": 4,
+    "r": 4,
+    "t": 4,
+    "b": 12,
+    "pad": 2
+  },
+  "hovermode": "x unified",
+  "hoverlabel": {
+    "bgcolor": "#000",
+    "bordercolor": "#000",
+    "font": {
+      "color": "#fff",
+      "family": "Inter",
+      "size": 12
+    }
+  },
+  "clickmode": "select+event",
+  "dragmode": "select",
+  "xaxis": {
+    "tickwidth": 0.1,
+    "tickcolor": "#DEDEDE",
+    "tick0": "2023-03-22",
+    "dtick": "2419200000", // 14 Tage (in Millisekunden)
+    "tickfont": {
+      "size": 9
+    },
+    "type": "date",
+    "tickformat": "%b-%d",
+    "automargin": true,
+    "fixedrange": true,
+    "gridcolor": "#fff",
+    "zerolinecolor": "#fff"
+  },
+  "yaxis": {
+    "tickfont": {
+      "size": 9
+    },
+    "range": [0, 1.01],
+    "type": "linear",
+    "tickformat": ".0%",
+    "dtick": "0.2",
+    "automargin": true,
+    "fixedrange": true,
+    "zerolinecolor": "#DEDEDE"
+  }
+}

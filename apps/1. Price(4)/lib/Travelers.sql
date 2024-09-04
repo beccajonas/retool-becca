@@ -1,0 +1,1 @@
+SELECT * FROM Pauschalreise.Travelers ORDER BY enabled DESC, departure_in_days, weight DESC

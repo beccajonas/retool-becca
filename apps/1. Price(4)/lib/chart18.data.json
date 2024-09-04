@@ -1,0 +1,28 @@
+[
+  {
+    "name": "preis",
+    "y": {{AvgPrices_ALL_12_Chart.data.werbetreibender}},
+    "x": {{AvgPrices_ALL_12_Chart.data.avg_price}},
+    "type": "bar",
+      "orientation": "h",
+      "hovertemplate": "<b>%{y}</b><br>%{x:.2f} €<extra></extra>",
+      "transforms": [
+        {
+          "type": "sort",
+          "order": "descending"
+        }
+      ],
+      "marker": {
+        "color": {{ AvgPrices_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#16366F' : '#F3F2F2') }}
+      },
+      "text": {{ AvgPrices_ALL_12_Chart.data.werbetreibender_short }},
+      "textposition": "inside",
+      "insidetextanchor": "start",
+      "textfont": {
+        "color": {{ AvgPrices_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#FFFFFF' : '#656565') }},
+        "size": 14,
+        "family": "Inter",
+        "weight": "bold",
+      }
+    }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Preisdifferenz über 5% – Gewinnrate",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.wins }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#063773",
+      "size": 4
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  },
+  
+  {
+    "name": "Preisdifferenz unter 5% – Gewinnrate",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.low_wins }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#6987ab",
+      "size": 4
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  },
+  
+  {
+    "name": "Preisparität",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.parity }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#9f9f9f",
+      "size": 4
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  },
+
+  {
+    "name": "Preisdifferenz unter 5% – Verlustrate",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.low_losses }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#f5bba9",
+      "size": 4
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  },
+  
+  {
+    "name": "Preisdifferenz 5 - 10% – Verlustrate",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.mid_losses }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#ef977b",
+      "size": 4
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  },
+  
+  {
+    "name": "Preisdifferenz über 10% – Verlustrate",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.high_losses }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#ea734e",
+      "size": 4
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  },
+  {
+    "name": "Suchläufe",
+    "x": {{ DailyWinRates_11.data.datum }},
+    "y": {{ DailyWinRates_11.data.delta_count }},
+    "customdata": {{ DailyWinRates_11.data.crawler_count }},
+    "type": "line",
+    "yaxis": "y2",
+    "hovertemplate": "%{y} Preisvergleiche in %{customdata} %{fullData.name}n.<extra></extra>",
+    "marker": {
+      "color": "D0EEFF",
+      "size": 4
+    },
+    "mode": "lines",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.competitor }},
+        "value": {{Competitor_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.travelers }},
+        "value": {{Travelers_Selection.value }},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ DailyWinRates_11.data.region }},
+        "value": {{Region_Selection.value }},
+        "operation": "="
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "yaxis2": { 
+    "title": {       
+      "text": "# Crawler Resultate",       
+      "standoff": 12,       
+      "font": {         
+        "size": 9       
+      }     
+    },     
+    "overlaying": "y",     
+    "side": "right",     
+    "type": "linear",     
+    "automargin": true,     
+    "fixedrange": true,     
+    "zerolinecolor": "#DEDEDE",
+    "showgrid": false,
+    "tickfont": {
+      "color": "#95C2DB"
+    },
+    "rangemode": "tozero"
+  },
+  "barmode": "stack",
+  "font": {
+    "family": "var(--default-font, var(--sans-serif))",
+    "color": "#033663",
+    "size": 9
+  },
+  "showlegend": false,
+  "margin": {
+    "l": 4,
+    "r": 4,
+    "t": 4,
+    "b": 4,
+    "pad": 2
+  },
+  "hovermode": "x unified",
+  "hoverlabel": {
+    "bgcolor": "#000",
+    "bordercolor": "#000",
+    "font": {
+      "color": "#fff",
+      "family": "var(--default-font, var(--sans-serif))",
+      "size": 12
+    }
+  },
+  "clickmode": "select+event",
+  "dragmode": "zoom",
+  "xaxis": {
+    "tickformat": "%d. %B",
+    "tickwidth": .1,
+    "tickcolor": "#DEDEDE",
+    "type": "date",
+    "automargin": true,
+    "fixedrange": true,
+    "gridcolor": "#fff",
+    "zerolinecolor": "#fff"
+  },
+  "yaxis": {
+    "range": [0, {{Math.max(...AveragePricePerDay.data.avg_daily_comp_price) * 1.2}}],
+    "automargin": true,
+    "fixedrange": false,
+    "zerolinecolor": "#DEDEDE",
+    "ticksuffix": "€"
+  },
+}
