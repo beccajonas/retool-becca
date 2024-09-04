@@ -1,0 +1,1 @@
+utils.exportData(chart20.data, "GHK-/Gutschein CPO", "xlsx")

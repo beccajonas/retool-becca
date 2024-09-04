@@ -1,0 +1,100 @@
+[
+    {
+    "name": {{`Ø ${Competitor_Selection.value}-Preis`}},
+    "x": {{ AveragePricePerDay.data.datum }},
+    "y": {{ AveragePricePerDay.data.avg_daily_comp_price}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}: %{y:.0f}€.<extra></extra>",
+    "marker": {
+      "color": "F2A992",
+      "size": 4,
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.competitor }},
+        "value": {{Competitor_Selection.value}},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.travelers }},
+        "value": {{Travelers_Selection.value}},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.region }},
+        "value": {{Region_Selection.value}},
+        "operation": "="
+      }
+    ]
+  },
+  {
+    "name": "Ø CHECK24-Preis",
+    "x": {{ AveragePricePerDay.data.datum }},
+    "y": {{ AveragePricePerDay.data.avg_daily_ch24_price}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}: %{y:.0f}€.<extra></extra>",
+    "marker": {
+      "color": "063773",
+      "size": 4,
+    },
+    "mode": "lines+markers",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.competitor }},
+        "value": {{Competitor_Selection.value}},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.travelers }},
+        "value": {{Travelers_Selection.value}},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.region }},
+        "value": {{Region_Selection.value}},
+        "operation": "="
+      }
+    ]
+  },
+    {
+    "name": "Suchläufe",
+    "x": {{ AveragePricePerDay.data.datum }},
+    "y": {{ AveragePricePerDay.data.price_count }},
+    "customdata": {{ AveragePricePerDay.data.crawler_count }},
+    "type": "line",
+    "yaxis": "y2",
+    "hovertemplate": "%{y} Preisvergleiche in %{customdata} %{fullData.name}n.<extra></extra>",
+    "marker": {
+      "color": "D0EEFF",
+      "size": 4,
+    },
+    "mode": "lines",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.competitor }},
+        "value": {{Competitor_Selection.value}},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.travelers }},
+        "value": {{Travelers_Selection.value}},
+        "operation": "="
+      },
+      {
+        "type": "filter",
+        "target": {{ AveragePricePerDay.data.region }},
+        "value": {{Region_Selection.value}},
+        "operation": "="
+      }
+    ]
+  }
+]

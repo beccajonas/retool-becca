@@ -1,0 +1,40 @@
+{
+  "font": {
+    "family": "Inter",
+    "color": "#A5A5A5"
+  },
+  "xaxis": {
+    "range": [0, 40100],
+    "dtick": 10000,
+    "type": "-",
+    "tickformat": "",
+    "automargin": true,
+    "fixedrange": true,
+    "gridcolor": "#F4F4F4",
+    "zerolinecolor": "#fff",
+    "showticklabels": true
+  },
+  "yaxis": {
+    "visible": false
+  },
+  "showlegend": false,
+  "margin": {
+    "l": 0,
+    "r": 0,
+    "t": 0,
+    "b": 0,
+    "pad": 2
+  },
+  "hovermode": "closest",
+  "hoverlabel": {
+    "bgcolor": "#000",
+    "bordercolor": "#000",
+    "font": {
+      "color": "#fff",
+      "family": "Inter",
+      "size": 12
+    }
+  },
+  "clickmode": "select+event",
+  "dragmode": "select"
+}

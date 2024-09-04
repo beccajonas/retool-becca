@@ -1,0 +1,77 @@
+{
+  "barmode": "stack",
+  "font": {
+    "family": "var(--default-font, var(--sans-serif))",
+    "color": "#033663",
+    "size": 9
+  },
+  "title": {
+    "text": "Ergebnisse vom aktuellsten Tag",
+    "xanchor": "center",
+    "y": 0.98,
+    "font": {
+      "size": 14,
+      "bold": true
+    }
+  },
+  "showlegend": false,
+  "margin": {
+    "l": 4,
+    "r": 4,
+    "t": 4,
+    "b": 4,
+    "pad": 2
+  },
+  "hovermode": "x unified",
+  "hoverlabel": {
+    "bgcolor": "#000",
+    "bordercolor": "#000",
+    "font": {
+      "color": "#fff",
+      "family": "var(--default-font, var(--sans-serif))",
+      "size": 12
+    }
+  },
+  "clickmode": "select+event",
+  "dragmode": "select",
+  "xaxis": {
+    "tickwidth": 0.1,
+    "tickcolor": "#DEDEDE",
+    "type": "-",
+    "automargin": true,
+    "fixedrange": true,
+    "zerolinecolor": "#fff"
+  },
+  "yaxis": {
+    "range": [-0.0, 1.09],
+    "type": "linear",
+    "tickformat": ".0%",
+    "dtick": "0.1",
+    "automargin": true,
+    "fixedrange": true,
+    "zerolinecolor": "#033663",
+    "gridcolor": "#DEDEDE"
+  },
+  "yaxis2": {
+    "title": {
+      "text": "# Crawler Resultate",
+      "standoff": 12,
+      "font": {
+        "size": 9
+      }
+    },
+    "overlaying": "y",
+    "side": "right",
+    "type": "linear",
+    "automargin": true,
+    "fixedrange": true,
+    "zerolinecolor": "#DEDEDE",
+    "showgrid": false,
+    "tickfont": {
+      "color": "#95C2DB"
+    },
+    "rangemode": "tozero"
+  },
+  "paper_bgcolor": "rgba(255, 255, 255, 0.95)",
+  "plot_bgcolor": "rgba(255, 255, 255, 0)"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CPO Gesamt",
+    "x": {{Controlling.data.datum}},
+    "y": {{Controlling.data.cpo_total}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}: %{y:.2f}€<extra></extra>",
+    "marker": {
+      "color": "#444444",
+      "size": 3
+    },
+    "mode": "lines+markers"
+  },
+  {
+    "name": "CPO Gutscheine",
+    "x": {{Controlling.data.datum}},
+    "y": {{Controlling.data.cpo_vouchers}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}: %{y:.2f}€<extra></extra>",
+    "marker": {
+      "color": "#063773",
+        "size": 3
+    },
+    "mode": "lines+markers"
+  },
+  {
+    "name": "CPO GHK",
+    "x": {{Controlling.data.datum}},
+    "y": {{Controlling.data.cpo_ghk}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}: %{y:.2f}€<extra></extra>",
+    "marker": {
+      "color": "#40C0C0",
+      "size": 3
+    },
+    "mode": "lines+markers"
+  }
+]

@@ -1,0 +1,2 @@
+select date, GHK_und_Gutscheinquote_nach_Anzahl
+from Pauschalreise_kpis.basis_kpis
