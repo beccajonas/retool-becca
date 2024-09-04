@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Preisdifferenz über 5% – Gewinnrate",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum}},
+    "y": {{ UrgencyPerSupplier_Filtered.value.win_rate }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#063773",
+      "size": 4,
+    }
+  },
+  
+  {
+    "name": "Preisdifferenz unter 5% – Gewinnrate",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum}},
+    "y": {{ UrgencyPerSupplier_Filtered.value.low_win_rate }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#6987ab",
+      "size": 4,
+    }
+  },
+    
+  {
+    "name": "Preisparität",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum }},
+    "y": {{ UrgencyPerSupplier_Filtered.value.parity_rate }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#9f9f9f",
+      "size": 4,
+    }
+  },
+
+  {
+    "name": "Preisdifferenz unter 5% – Verlustrate",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum }},
+    "y": {{ UrgencyPerSupplier_Filtered.value.low_loss_rate }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#f5bba9",
+      "size": 4,
+    }
+  },
+  
+  {
+    "name": "Preisdifferenz 5 - 10% – Verlustrate",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum }},
+    "y": {{ UrgencyPerSupplier_Filtered.value.mid_loss_rate }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#ef977b",
+      "size": 4,
+    }
+  },
+  
+  {
+    "name": "Preisdifferenz über 10% – Verlustrate",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum }},
+    "y": {{ UrgencyPerSupplier_Filtered.value.high_loss_rate }},
+    "type": "bar",
+    "hovertemplate": "%{fullData.name}: %{y:.0%}<extra></extra>",
+    "marker": {
+      "color": "#ea734e",
+      "size": 4,
+    }
+  },
+  
+  {
+    "name": "Urgency Score",
+    "x": {{ UrgencyPerSupplier_Filtered.value.datum }},
+    "y": {{ UrgencyPerSupplier_Filtered.value.urgency_score}},
+    "type": "line",
+    "yaxis": "y2",
+    "hovertemplate": "%{fullData.name}: <b>%{y:.0f}<extra></extra>",
+    "marker": {
+      "color": "D0EEFF",
+      "size": 4,
+    },
+    "mode": "lines",
+    "transforms": [
+      {"type": "sort",
+      "target": "x"}
+    ]
+  }
+]

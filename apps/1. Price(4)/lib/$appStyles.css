@@ -1,0 +1,17 @@
+._MnqEp, ._LfW4h{
+  min-width: -webkit-fill-available !important;
+}
+
+#root > div.no-expiry-header > div > div > div > div > div > div.embedded-canvas.retool-canvas.retool-canvas--app-shell.embedded-canvas--with-pill.no-mobile-layout > div > div {
+  min-width: -webkit-fill-available !important;
+}
+.indent {
+  text-indent: 1em;
+}
+.two-indented {
+  text-indent: 2em;
+}
+
+.presentation-canvas-padding .retool-canvas-container--with-pill {
+    margin-top:0px
+}
