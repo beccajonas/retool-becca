@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Impressionen",
+      "x": {{ FirstRankComercial_ALL_12_Chart.data.first_spot }},
+      "y": {{ FirstRankComercial_ALL_12_Chart.data.werbetreibender }},
+      "type": "bar",
+      "orientation": "h",
+      "hovertemplate": {{select_anteilig.value ? "<b>%{y}</b><br>%{x:.2f}% der Impressionen<extra></extra>" : "<b>%{y}</b><br>%{x:.0f} Mal<extra></extra>"}} ,
+      "transforms": [
+        {
+          "type": "sort",
+          "target": "y",
+          "order": "descending"
+        },
+        {
+          "type": "aggregate",
+          "groups": {{ FirstRankComercial_ALL_12_Chart.data.werbetreibender }},
+          "aggregations": [
+            {
+              "target": "y",
+              "func": "sum",
+              "enabled": true
+            }
+          ]
+        }
+      ],
+      "marker": {
+        "color": {{ FirstRankComercial_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#16366F' : '#F3F2F2') }}
+      },
+      "text": {{ FirstRankComercial_ALL_12_Chart.data.werbetreibender_short }},
+      "textposition": "inside",
+      "insidetextanchor": "start",
+      "textfont": {
+        "color": {{ FirstRankComercial_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#FFFFFF' : '#656565') }},
+        "size": 14,
+        "family": "Inter",
+        "weight": "bold",
+      }
+    }
+  ]

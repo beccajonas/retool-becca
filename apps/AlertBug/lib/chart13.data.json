@@ -1,0 +1,71 @@
+[
+    {
+    "name": "Suchanfragen mit Preiskampf",
+    "x": {{AdCheckDaily_Chart.data.date}},
+    "y": {{AdCheckDaily_Chart.data.preiskampf_rel}},
+    "customdata": {{ AdCheckDaily_Chart.data.preiskampf_abs }},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}:<br>%{y} (%{customdata} Mal)<extra></extra>",
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{AdCheckDaily_Chart.data.preiskampf_rel}},
+        "operation": "!=",
+        "value": "null"
+      },
+      {
+        "type": "filter",
+        "target": {{AdCheckDaily_Chart.data.preiskampf_abs}},
+        "operation": "!=",
+        "value": 0
+      }
+    ],
+    "marker": {
+      "color": "#C2BDBD",
+      "size": 3
+    },
+    "mode": "lines+markers"
+  },
+    {
+    "name": "davon teilgenommen",
+    "x": {{AdCheckDaily_Chart.data.date}},
+    "y": {{AdCheckDaily_Chart.data.teilgenommen_rel}},
+    "type": "line",
+    "hovertemplate": "Teilnahme an Preiskämpfen:<br>%{y} (%{customdata} Mal)<extra></extra>",
+    "customdata": {{ AdCheckDaily_Chart.data.teilgenommen_abs }},
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{AdCheckDaily_Chart.data.teilgenommen_rel}},
+        "operation": "!=",
+        "value": "null"
+      }
+    ],
+    "marker": {
+      "color": "#c0dbeb",
+      "size": 3
+    },
+    "mode": "lines+markers"
+  },
+    {
+    "name": "Preiskämpfe gewonnen",
+    "x": {{AdCheckDaily_Chart.data.date}},
+    "y": {{AdCheckDaily_Chart.data.sieg_rel}},
+    "type": "line",
+    "hovertemplate": "%{fullData.name}:<br>%{y} (%{customdata} Mal)<extra></extra>",
+    "customdata": {{ AdCheckDaily_Chart.data.sieg_abs }},
+    "transforms": [
+      {
+        "type": "filter",
+        "target": {{AdCheckDaily_Chart.data.sieg_rel}},
+        "operation": "!=",
+        "value": "null"
+      }
+    ],
+    "marker": {
+      "color": "#005EA8",
+      "size": 3
+    },
+    "mode": "lines+markers"
+  }
+]

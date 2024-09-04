@@ -1,0 +1,47 @@
+{
+
+    "font": {
+      "family": "Inter",
+      "color": "#A5A5A5"
+    },
+    "xaxis": {
+
+      "type": "-",
+      "tickangle": {{slider_top_n.value >= 8 ? 25 : 0}},
+      "tickfont": {
+        "size": {{ slider_top_n.value >= 8 ? 11 : (slider_top_n.value == 7 ? 10 : (slider_top_n.value >= 5 ? 12 :14)) }}
+      },
+      "automargin": true,
+      "fixedrange": true,
+      "gridcolor": "#fff",
+      "zerolinecolor": "#fff",
+      "showticklabels": true
+    },
+    "yaxis": {
+      "gridcolor": "#F4F4F4",
+      "range": [3.1,0.99],
+      "dtick": 1,
+      "tick0": 3,
+      "tickformat": "",
+    },
+    "showlegend": false,
+    "margin": {
+      "l": 11,
+      "r": 0,
+      "t": 8,
+      "b": 0,
+      "pad": 2
+    },
+    "hovermode": "closest",
+    "hoverlabel": {
+      "bgcolor": "#000",
+      "bordercolor": "#000",
+      "font": {
+        "color": "#fff",
+        "family": "Inter",
+        "size": 12
+      }
+    },
+    "clickmode": "select+event",
+    "dragmode": "select"
+  }
