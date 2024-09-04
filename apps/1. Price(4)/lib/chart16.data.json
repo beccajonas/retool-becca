@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Impressionen",
+      "y": {{ AvgCommercialRank_ALL_12_Chart.data.avg_rank }},
+      "x": {{ AvgCommercialRank_ALL_12_Chart.data.werbetreibender_short }},
+      "type": "scatter",
+      "mode": "markers",
+      "hovertemplate": "<b>%{customdata}</b><br>Rang:Ø %{y:.2f}<extra></extra>",
+      "customdata": {{ AvgCommercialRank_ALL_12_Chart.data.werbetreibender }},
+      "transforms": [
+        {
+          "type": "sort",
+          "target": "y",
+          "order": "ascending"
+        }
+      ],
+      "marker": {
+        "symbol": "line-ew-open",
+        "size": 20,
+        "line": {
+          "width": 4
+        },
+        "color": {{ AvgCommercialRank_ALL_12_Chart.data.werbetreibender.map((x) => x == 'CHECK24' ? '#16366F' : '#F3F2F2') }}
+      }
+    }
+  ]

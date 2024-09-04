@@ -1,0 +1,408 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "c5817cfe-6aeb-11ef-bfc0-bfaa9a4dd63b",
+  "appTemplate": {
+    "urlFragmentDefinitions": [
+      {
+        "ordered": [
+          {
+            "name": "_hideNav"
+          },
+          {
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": ""
+          },
+          {
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "mobileAppSettings": {
+      "object": {
+        "mobileOfflineModeEnabled": false
+      }
+    },
+    "appMaxWidth": "1560px",
+    "appThemeId": "custom",
+    "experimentalFeatures": {
+      "object": {
+        "sourceControlTemplateDehydration": false,
+        "multiplayerEditingEnabled": false
+      }
+    },
+    "preloadedAppJavaScript": "{{self.toFixed(2)}}",
+    "pageCodeFolders": {
+      "object": {
+        "LayoutConfig_ALL_DYS11_Chart": {
+          "array": []
+        },
+        "DetailsALL_BM_11_Table": {
+          "array": []
+        },
+        "DetailsPriceALL_BM_11_Table": {
+          "array": []
+        },
+        "RentersRankingALL_BM_11_Table": {
+          "array": []
+        },
+        "SupplierRankingALL_BM_11_Table": {
+          "array": []
+        },
+        "CombiRankingALL_BM_11_Table": {
+          "array": []
+        },
+        "DailyWinRates_11": {
+          "array": []
+        },
+        "CompetitorSelection": {
+          "array": []
+        },
+        "CategorySelection": {
+          "array": []
+        },
+        "MW_Selection": {
+          "array": []
+        },
+        "Competitor_Selection": {
+          "array": []
+        },
+        "Category_Selection": {
+          "array": []
+        },
+        "Country_Selection": {
+          "array": []
+        },
+        "AggregationDays": {
+          "array": []
+        },
+        "Destinations": {
+          "array": []
+        },
+        "Destinations_11": {
+          "array": []
+        },
+        "InputKombinationen_11": {
+          "array": []
+        },
+        "InputKombinationenCounter_11": {
+          "array": []
+        },
+        "AveragePricePerDay": {
+          "array": []
+        },
+        "Mietdauer_Multiselect": {
+          "array": []
+        },
+        "CH24Supplier_11_MultiSelect": {
+          "array": []
+        },
+        "CH24Supplier_11_MultiSelect_Filtered": {
+          "array": []
+        },
+        "DistinctSuppliers_11_MultiSelect": {
+          "array": []
+        },
+        "CompetitorSupplier_11_MultiSelect": {
+          "array": []
+        },
+        "CHEC24Suppliers": {
+          "array": []
+        },
+        "CHEC424Suppliers": {
+          "array": []
+        },
+        "CHECK24Suppliers": {
+          "array": []
+        },
+        "full_query": {
+          "array": []
+        },
+        "bits_and_pieces": {
+          "array": []
+        },
+        "Container_11": {
+          "array": []
+        },
+        "UrgencyScores_Table": {
+          "array": []
+        },
+        "City_TextInput": {
+          "array": []
+        },
+        "RollingDays": {
+          "array": []
+        },
+        "UrgencyScores": {
+          "array": []
+        },
+        "UrgencyScoresCalculated": {
+          "array": []
+        },
+        "UrgencyScoresFiltered": {
+          "array": []
+        },
+        "UrgencyChart": {
+          "array": []
+        },
+        "UrgencyScores_Destination": {
+          "array": []
+        },
+        "UrgencyScoresCalculated_Destination": {
+          "array": []
+        },
+        "UrgencyScoresFiltered_Destination": {
+          "array": []
+        },
+        "AllResults_Table": {
+          "array": []
+        },
+        "LazyLoad_Handler": {
+          "array": []
+        },
+        "LazyLoad_Destinations": {
+          "array": []
+        },
+        "LazyLoad_Suppliers": {
+          "array": []
+        },
+        "UrgencyScoresFiltered_Supplier": {
+          "array": []
+        },
+        "UrgencyScoresCalculated_Supplier": {
+          "array": []
+        },
+        "UrgencyScores_Supplier": {
+          "array": []
+        },
+        "UrgencyPerDestination": {
+          "array": []
+        },
+        "UrgencyPerDestination_Calculate": {
+          "array": []
+        },
+        "UrgencyPerDestination_Calculated": {
+          "array": []
+        },
+        "UrgencyPerDestination_Filtered": {
+          "array": []
+        },
+        "UrgencyPerSupplier": {
+          "array": []
+        },
+        "UrgencyPerSupplier_Filtered": {
+          "array": []
+        },
+        "UrgencyPerSupplier_Calculated": {
+          "array": []
+        },
+        "UrgencyChart_Supplier": {
+          "array": []
+        },
+        "UrgencyChart_Destination": {
+          "array": []
+        },
+        "UrgencyTable_Destination": {
+          "array": []
+        },
+        "AllResults": {
+          "array": []
+        },
+        "AllResults_Table2": {
+          "array": []
+        },
+        "ErgebnisSelection": {
+          "array": []
+        },
+        "UrgencyTable_Supplier": {
+          "array": []
+        },
+        "ErgebnisSelection2": {
+          "array": []
+        },
+        "default_state_false": {
+          "array": []
+        },
+        "laggingCommands": {
+          "array": []
+        },
+        "LaggingCommands": {
+          "array": []
+        },
+        "SelectedRenterResults": {
+          "array": []
+        },
+        "SelectedRenter_Counts": {
+          "array": []
+        },
+        "dynamic_provision": {
+          "array": []
+        },
+        "Destination_DP": {
+          "array": []
+        },
+        "MaxProvision_DP": {
+          "array": []
+        },
+        "MaxProvision_DP_Input": {
+          "array": []
+        },
+        "PriceSensitivity": {
+          "array": []
+        },
+        "WinRateToProvision": {
+          "array": []
+        },
+        "PriceSensitivity_Table": {
+          "array": []
+        },
+        "Cache": {
+          "array": []
+        },
+        "Travelers": {
+          "array": []
+        },
+        "UpdateTravelers": {
+          "array": []
+        },
+        "UpdateT": {
+          "array": []
+        },
+        "ApplyTravelerChanges": {
+          "array": []
+        },
+        "UpdateTravelersTable": {
+          "array": []
+        },
+        "Travelers_Selection": {
+          "array": []
+        },
+        "Region_Selection": {
+          "array": []
+        },
+        "Hotels": {
+          "array": []
+        },
+        "Hotel_Table": {
+          "array": []
+        },
+        "Hotel_TableFilter": {
+          "array": []
+        },
+        "Hotel_TableSearch": {
+          "array": []
+        },
+        "Travelers_Table": {
+          "array": []
+        },
+        "DailyWinRates_Chart": {
+          "array": []
+        },
+        "sidebarFrameHidden": {
+          "array": []
+        },
+        "ApplyHotelChanges": {
+          "array": []
+        },
+        "UpdateHotels": {
+          "array": []
+        },
+        "SingleResults_Table": {
+          "array": []
+        },
+        "competitor_screenshot": {
+          "array": []
+        },
+        "ScreenshotCompetitor": {
+          "array": []
+        },
+        "ScreenshotCHECK24": {
+          "array": []
+        },
+        "ScreenshotGrid": {
+          "array": []
+        },
+        "DetailedContainer": {
+          "array": []
+        },
+        "DetailedContainer_Title": {
+          "array": []
+        },
+        "DetailedCollapsibleContainer": {
+          "array": []
+        },
+        "DistinctOperators": {
+          "array": []
+        },
+        "Operator_Multiselect": {
+          "array": []
+        },
+        "CompetitorOperator_Multiselect": {
+          "array": []
+        },
+        "CH24Operator_Multiselect": {
+          "array": []
+        },
+        "UrgencyGroup": {
+          "array": []
+        },
+        "ScreenshotContainer": {
+          "array": []
+        },
+        "product": {
+          "array": []
+        },
+        "productAdCheck": {
+          "array": []
+        },
+        "AdCheckDaily_Chart": {
+          "array": []
+        },
+        "AdCheckRollingAvg_Chart": {
+          "array": []
+        },
+        "Controlling": {
+          "array": []
+        },
+        "LastDay": {
+          "array": []
+        },
+        "ScreenshotCompetitor_Image": {
+          "array": []
+        },
+        "ScreenshotCHECK24_Image": {
+          "array": []
+        },
+        "ScreenshotInfo": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "appThemeName": "Custom app theme",
+    "version": "3.75.1",
+    "customShortcuts": {
+      "array": [
+        {
+          "object": {
+            "shortcut": "",
+            "action": ""
+          }
+        }
+      ]
+    }
+  }
+}
