@@ -1,5 +1,7 @@
 <App>
   <Include src="./functions.rsx" />
+  <AppStyles id="$appStyles" css={include("./lib/$appStyles.css", "string")} />
+
   <CustomAppTheme
     id="$appTheme"
     _migrated={true}

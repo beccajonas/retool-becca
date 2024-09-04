@@ -115,7 +115,7 @@
   "SingleResults_Table": {
     "container": "Container_11",
     "subcontainer": "e1a1a",
-    "row": 203,
+    "row": 203.2,
     "height": 8,
     "width": 12,
     "stackPosition": {
@@ -163,7 +163,6 @@
   "UrgencyGroup": {
     "container": "Container_11",
     "subcontainer": "e1a1a",
-    "row": 211.2,
     "height": 3.8,
     "width": 12,
     "stackPosition": {
@@ -210,7 +209,6 @@
     "subcontainer": "e1a1a",
     "row": 202,
     "col": 4,
-    "height": 1,
     "width": 8,
     "stackPosition": {
       "object": {
@@ -628,7 +626,6 @@
   "divider72": {
     "container": "Container_11",
     "subcontainer": "e1a1a",
-    "row": 211,
     "height": 0.2,
     "width": 12,
     "stackPosition": {
