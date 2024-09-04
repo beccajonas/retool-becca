@@ -253,6 +253,11 @@ Die KPI misst den prozentualen Anteil der Preisvergleiche in denen CHECK24 einen
       description="Klicke auf den Preis um dir den entsprechenden Screenshot anzeigen zu lassen."
       title="Screenshots"
     />
+    <Alert
+      id="alert3"
+      description="Klicke auf den Preis um dir den entsprechenden Screenshot anzeigen zu lassen."
+      title="Screenshots"
+    />
     <Table
       id="SingleResults_Table"
       cellSelection="none"
