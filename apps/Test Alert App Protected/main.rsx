@@ -12,5 +12,9 @@
       id="alert1"
       description="This component was built on 3.33.37-stable in a protected app"
     />
+    <Alert
+      id="alert2"
+      description="This component was built on 3.75.1-stable in a protected app before commit"
+    />
   </Frame>
 </App>
