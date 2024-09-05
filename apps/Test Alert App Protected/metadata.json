@@ -4,9 +4,15 @@
   "pageUuid": "edcade26-6b90-11ef-860f-2ffa2b577e5c",
   "appTemplate": {
     "appThemeId": 1,
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
     "appThemeName": "Test Alert Theme",
-    "shortlink": false,
-    "version": "3.33.37",
+    "version": "3.75.1",
     "experimentalDataTabEnabled": true
   }
 }
