@@ -1,0 +1,11 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "341a3402-6c7d-11ef-8238-f7e852e780d7",
+  "appTemplate": {
+    "appThemeId": 1,
+    "appThemeName": "Test Alert Theme",
+    "version": "3.75.2",
+    "experimentalDataTabEnabled": true
+  }
+}
