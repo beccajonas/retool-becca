@@ -1,0 +1,14 @@
+{
+  "alert1": {
+    "row": 2.4,
+    "col": 1,
+    "height": 1,
+    "width": 4
+  },
+  "alert2": {
+    "row": 5,
+    "col": 1,
+    "height": 1,
+    "width": 4
+  }
+}
