@@ -10,5 +10,17 @@
     "col": 1,
     "height": 1,
     "width": 4
+  },
+  "alert3": {
+    "row": 7.2,
+    "col": 1,
+    "height": 1,
+    "width": 4
+  },
+  "alert4": {
+    "row": 9.6,
+    "col": 1,
+    "height": 1,
+    "width": 4
   }
 }
