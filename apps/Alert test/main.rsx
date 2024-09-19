@@ -26,6 +26,8 @@
       type="warning"
     />
     <Alert id="alert4" description="This was added in 3.75" title="Info" />
+
     <Alert id="alert5" />
+
   </Frame>
 </App>
