@@ -19,5 +19,13 @@
       title="Warning"
       type="warning"
     />
+    <Alert
+      id="alert3"
+      description="This was added in 3.75"
+      title="Warning"
+      type="warning"
+    />
+    <Alert id="alert4" description="This was added in 3.75" title="Info" />
+    <Alert id="alert5" />
   </Frame>
 </App>
