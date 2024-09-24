@@ -1,0 +1,9 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "4d5c42ea-7a95-11ef-8b20-373bb70e74e6",
+  "appTemplate": {
+    "version": "3.52.2",
+    "experimentalDataTabEnabled": true
+  }
+}
