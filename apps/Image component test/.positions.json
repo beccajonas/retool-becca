@@ -8,5 +8,10 @@
     "col": 2,
     "height": 3,
     "width": 2
+  },
+  "text1": {
+    "row": 9,
+    "col": 5,
+    "height": 1
   }
 }

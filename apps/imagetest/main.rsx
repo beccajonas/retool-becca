@@ -15,6 +15,12 @@
       srcType="dbBlobId"
     />
     <Image
+      id="image4"
+      dbBlobId="b87ff86d-3c4c-4ace-b491-cf7b30566033"
+      horizontalAlign="center"
+      srcType="dbBlobId"
+    />
+    <Image
       id="image2"
       dbBlobId="1616819f-ee58-4b5a-9443-a981964e158c"
       horizontalAlign="center"

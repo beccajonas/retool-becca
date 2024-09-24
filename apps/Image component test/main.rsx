@@ -16,6 +16,12 @@
       src="https://picsum.photos/id/1025/800/600"
       srcType="retoolStorageFileId"
     />
+
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Image
       id="image2"
       dbBlobId="1616819f-ee58-4b5a-9443-a981964e158c"
