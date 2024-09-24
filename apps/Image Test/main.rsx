@@ -15,5 +15,10 @@
       src="https://picsum.photos/id/1025/800/600"
       srcType="dbBlobId"
     />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </App>
