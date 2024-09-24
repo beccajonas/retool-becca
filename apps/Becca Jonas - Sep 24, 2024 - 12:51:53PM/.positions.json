@@ -1,0 +1,25 @@
+{
+  "image1": {
+    "row": 2,
+    "col": 1,
+    "height": 3,
+    "width": 2
+  },
+  "image2": {
+    "row": 6.6,
+    "col": 1,
+    "height": 3,
+    "width": 2
+  },
+  "image3": {
+    "row": 11.2,
+    "col": 1,
+    "height": 3,
+    "width": 2
+  },
+  "text1": {
+    "row": 1,
+    "col": 1,
+    "height": 1
+  }
+}
