@@ -20,5 +20,11 @@
       horizontalAlign="center"
       srcType="dbBlobId"
     />
+    <Image
+      id="image3"
+      dbBlobId="1616819f-ee58-4b5a-9443-a981964e158c"
+      horizontalAlign="center"
+      srcType="dbBlobId"
+    />
   </Frame>
 </App>
